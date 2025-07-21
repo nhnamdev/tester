@@ -1,33 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-21T15:33:07 GMT+07:00" name="Default suite" finished-at="2025-07-21T15:33:18 GMT+07:00" duration-ms="11076">
+  <suite started-at="2025-07-21T15:56:08 GMT+07:00" name="Default suite" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="75">
     <groups>
+      <group name="testOne">
+        <method signature="TestAnnotation.testOneMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" name="testOneMethod" class="TestNG.TestAnnotation"/>
+      </group> <!-- testOne -->
+      <group name="testTwo">
+        <method signature="TestAnnotation.testTwoMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" name="testTwoMethod" class="TestNG.TestAnnotation"/>
+      </group> <!-- testTwo -->
     </groups>
-    <test started-at="2025-07-21T15:33:07 GMT+07:00" name="Default test" finished-at="2025-07-21T15:33:18 GMT+07:00" duration-ms="11076">
-      <class name="TestNG.AutomationTestNG1">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.AutomationTestNG1@10683d9d]" started-at="2025-07-21T15:33:07 GMT+07:00" name="beforeTest" finished-at="2025-07-21T15:33:08 GMT+07:00" duration-ms="1219" status="PASS">
+    <test started-at="2025-07-21T15:56:08 GMT+07:00" name="Default test" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="75">
+      <class name="TestNG.TestAnnotation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeSuite" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeTest" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="Demo1()[pri:0, instance:TestNG.AutomationTestNG1@10683d9d]" started-at="2025-07-21T15:33:08 GMT+07:00" name="Demo1" finished-at="2025-07-21T15:33:10 GMT+07:00" duration-ms="1141" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeClass" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo1 -->
-        <test-method signature="Demo2()[pri:0, instance:TestNG.AutomationTestNG1@10683d9d]" started-at="2025-07-21T15:33:10 GMT+07:00" name="Demo2" finished-at="2025-07-21T15:33:13 GMT+07:00" duration-ms="3624" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeGroupOne()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeGroupOne" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo2 -->
-        <test-method signature="Demo3()[pri:0, instance:TestNG.AutomationTestNG1@10683d9d]" started-at="2025-07-21T15:33:13 GMT+07:00" name="Demo3" finished-at="2025-07-21T15:33:16 GMT+07:00" duration-ms="2764" status="PASS">
+        </test-method> <!-- beforeGroupOne -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Demo3 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.AutomationTestNG1@10683d9d]" started-at="2025-07-21T15:33:16 GMT+07:00" name="afterTest" finished-at="2025-07-21T15:33:18 GMT+07:00" duration-ms="2280" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOneMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="testOneMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOneMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterGroupOne()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterGroupOne" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroupOne -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeGroupTwo()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="beforeGroupTwo" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroupTwo -->
+        <test-method signature="testTwoMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="testTwoMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwoMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterMethod" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterGroupTwo()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterGroupTwo" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroupTwo -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterClass" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterTest" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.AutomationTestNG1 -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG.TestAnnotation@3eb738bb]" started-at="2025-07-21T15:56:08 GMT+07:00" name="afterSuite" finished-at="2025-07-21T15:56:08 GMT+07:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG.TestAnnotation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
