@@ -1,7 +1,7 @@
 package TestNG;
-
 import org.testng.annotations.*;
-
+//TestNG chạy code ngầm
+// Cucumber Chạy code theo gherkin (Chạy theo kịch bản> ngôn ngữ nói)
 public class TestAnnotation {
 
 	@BeforeSuite

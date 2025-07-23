@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNG.AutomationTestNG">
+      <class name="actionRobotClass.Action">
         <methods>
-          <include name="verifyHomepageTitle"/>
+          <include name="Setup"/>
+          <include name="TestAction"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- TestNG.AutomationTestNG -->
+      </class> <!-- actionRobotClass.Action -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
