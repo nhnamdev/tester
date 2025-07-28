@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="actionRobotClass.Action">
+      <class name="thuhanh.ProjectTest">
         <methods>
-          <include name="Setup"/>
-          <include name="TestAction"/>
-          <include name="TearDown"/>
+          <include name="closeDriver"/>
+          <include name="createDriver"/>
+          <include name="loginPage"/>
         </methods>
-      </class> <!-- actionRobotClass.Action -->
+      </class> <!-- thuhanh.ProjectTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

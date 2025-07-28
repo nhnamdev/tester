@@ -14,7 +14,7 @@ public class Action extends Init {
 	@Test
 	public void TestAction() throws Exception {
 
-		driver.get("https://www.google.com/");
+		driver.get("https://www.fb.com/");
 		WebElement element = driver.findElement(
 				By.xpath("/html[1]/body[1]/div[1]/div[3]/form[1]/div[1]/div[1]/div[1]/div[1]/div[2]/input[1]"));
 
